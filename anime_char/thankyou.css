@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.msg {
+  background-color: rgba(255, 128, 82, 0.51);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "East Sea Dokdo", cursive;
+  font-style: italic;
+  padding: 15vh 20vw;
+  position: relative;
+}
+
+p {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.title {
+  font-size: 5rem;
+}

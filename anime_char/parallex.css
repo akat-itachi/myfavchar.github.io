@@ -1,0 +1,153 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------- HEADER ---------------*/
+
+.header,
+.footer {
+  background-color: rgba(255, 128, 82, 0.51);
+  color: white;
+  text-align: center;
+  font-size: 10rem;
+  font-family: "East Sea Dokdo", cursive;
+  font-style: italic;
+  padding: 45vh 20vw;
+  position: relative;
+}
+
+/*---------------- DESCRIPTION OF CHARACTER --------------*/
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(220, 220, 220);
+  position: relative;
+  overflow: auto;
+  width: 97.056%;
+  height: 25rem;
+  padding: 20px;
+}
+
+h1 {
+  flex: 1;
+  font-family: "East sea Dokdo", Arial;
+  font-size: 4rem;
+  margin: 10px;
+}
+
+h2 {
+  flex: 1;
+  margin: 10px;
+  font-size: 2rem;
+  font-family: "East sea Dokdo", Arial;
+}
+
+p {
+  flex: 2;
+  word-spacing: 5px;
+  line-height: 1.8rem;
+  font-size: 1rem;
+  margin: 10px;
+  font-weight: lighter;
+  font-family: Comfortaa, Arial;
+}
+
+.quote {
+  margin-top: 3rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*------------------- PARALLEX EFFECT ----------------*/
+
+.parallex {
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pic1 {
+  background-image: url("images/itachi.jpg");
+}
+
+.pic2 {
+  background-image: url("images/levi.jpg");
+}
+
+.pic3 {
+  background-image: url("images/kakashi.jpg");
+}
+
+.pic4 {
+  background-image: url("images/senku.jpg");
+}
+
+.pic5 {
+  background-image: url("images/kuro.jpg");
+}
+
+.pic6 {
+  background-image: url("images/koro_sensei.jpg");
+}
+
+.pic7 {
+  background-image: url("images/tomioka.jpg");
+}
+
+/*---------------------- Button -----------------------*/
+
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: rgba(255, 128, 82, 0.51);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
